@@ -32,15 +32,15 @@ public class Main {
         System.out.println(pozdrav3 + jmeno);*/
 
         //Kalkulacka
-        int prvniCislo;
-        int druheCislo;
+        float prvniCislo;
+        float druheCislo;
         Scanner mujScanner = new Scanner(System.in);
 
         System.out.println("Zadej prvni cislo:");
-        prvniCislo = mujScanner.nextInt();
+        prvniCislo = mujScanner.nextFloat();
 
         System.out.println("Zadej druhe cislo:");
-        druheCislo = mujScanner.nextInt();
+        druheCislo = mujScanner.nextFloat();
 
         System.out.println(prvniCislo + druheCislo);
         System.out.println(prvniCislo - druheCislo);
