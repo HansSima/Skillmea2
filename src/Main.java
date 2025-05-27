@@ -17,6 +17,10 @@ public class Main {
         System.out.println(prvniCislo * druheCislo);
         System.out.println(prvniCislo / druheCislo);
 
+        String pozdrav2 = "Ahoj";
+        String jmeno = "Honza";
+
+        System.out.println(pozdrav2 + " " + jmeno);
 
     }
 }
