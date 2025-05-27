@@ -47,7 +47,11 @@ public class Main {
         System.out.println(prvniCislo * druheCislo);
         System.out.println(prvniCislo / druheCislo);*/
 
+        double a = 0.1;
+        double b = 0.2;
 
+        double soucet = a + b;
+        System.out.println(soucet);
 
     }
 }
