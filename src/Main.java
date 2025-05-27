@@ -74,5 +74,7 @@ public class Main {
         System.out.println(prvniCislo - druheCislo);
         System.out.println(prvniCislo % druheCislo);
 
+        System.out.println(prvniCislo <= druheCislo);
+
     }
 }
