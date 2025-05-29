@@ -196,6 +196,16 @@ public class Main {
         }*/
 
         //Pole
+        int[] znamky = new int[5];
+        znamky[0] = 3;
+        znamky[1] = 5;
+        znamky[2] = 2;
+        znamky[3] = 3;
+        znamky[4] = 1;
+
+        int[] znamky2 = new int[] {3, 5, 1, 3, 1};
+
+        System.out.println(znamky[2]);
 
     }
 }
