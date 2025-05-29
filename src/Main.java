@@ -132,7 +132,7 @@ public class Main {
         System.out.println("Vase BMI je: " + bmi);*/
 
         //Liche cislo = vyhrava, Sude cislo = prohrava
-        int hozeneCislo;
+        /*int hozeneCislo;
         Random nahodnyGenerator = new Random();
 
         System.out.println("Pro hozeni kostkou stiskni enter");
@@ -147,7 +147,38 @@ public class Main {
         }
         else {
             System.out.println("Suda - Prohravas");
+        }*/
+
+        //Switch - den v tydnu
+        Scanner mujScanner = new Scanner(System.in);
+        int cisloDne;
+        System.out.println("Zadej cislo dne:");
+        cisloDne = mujScanner.nextInt();
+
+        switch (cisloDne) {
+            case 1:
+                System.out.println("Je pondeli");
+                break;
+            case 2:
+                System.out.println("Je utery");
+                break;
+            case 3:
+                System.out.println("Je streda");
+                break;
+            case 4:
+                System.out.println("Je ctvrtek");
+                break;
+            case 5:
+                System.out.println("Je patek");
+                break;
+            case 6:
+                System.out.println("Je sobota");
+                break;
+            case 7:
+                System.out.println("Je nedele");
+                break;
         }
+
 
     }
 }
