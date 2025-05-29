@@ -100,7 +100,13 @@ public class Main {
             System.out.println("Nelze zadat zaporny vek");
         }*/
 
-
+        //Vypocet BMI hmotnost(kg)/vyska(m) na druhou, vypis do konzole vysledek
+        // (<18.5) - podváha
+        // (>=18.5 && >25) - optimální váha
+        // (>=25) - nadváha
+        float vyska;
+        float hmotnost;
+        float bmi;
 
 
     }
