@@ -150,7 +150,7 @@ public class Main {
         }*/
 
         //Switch - den v tydnu
-        Scanner mujScanner = new Scanner(System.in);
+        /*Scanner mujScanner = new Scanner(System.in);
         int cisloDne;
         System.out.println("Zadej cislo dne:");
         cisloDne = mujScanner.nextInt();
@@ -181,6 +181,21 @@ public class Main {
                 System.out.println("Neplatne cislo dne");
         }
 
+        switch (cisloDne) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Je pracovni den");
+                break;
+            case 6:
+            case 7:
+                System.out.println("Je vikend");
+                break;
+        }*/
+
+        //Pole
 
     }
 }
