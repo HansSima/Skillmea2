@@ -196,7 +196,7 @@ public class Main {
         }*/
 
         //Pole
-        int[] znamky = new int[5];
+        /*int[] znamky = new int[5];
         znamky[0] = 3;
         znamky[1] = 5;
         znamky[2] = 2;
@@ -205,7 +205,18 @@ public class Main {
 
         int[] znamky2 = new int[] {3, 5, 1, 3, 1};
 
-        System.out.println(znamky[2]);
+        System.out.println(znamky[2]);*/
+
+        String[] jmena = new String[30];
+        Scanner mujScanner = new Scanner(System.in);
+        System.out.println("Zadej pozici ke zmene(max 29)");
+        int poziceZmeny = mujScanner.nextInt();
+        mujScanner.nextLine();
+        System.out.println("Zadej jmeno:");
+        String jmeno = mujScanner.nextLine();
+
+        jmena[poziceZmeny] = jmeno;
+        System.out.println(jmena[poziceZmeny]);
 
     }
 }
