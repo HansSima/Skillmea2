@@ -226,5 +226,10 @@ public class Main {
         pole2D[0][0][0] = 464;
         pole2D[0][1][0] = -92;*/
 
+        //Smycky
+        for(int i = 0; i < 10; i++){
+            System.out.println(i * 10);
+        }
+
     }
 }
