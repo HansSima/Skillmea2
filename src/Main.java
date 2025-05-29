@@ -207,7 +207,7 @@ public class Main {
 
         System.out.println(znamky[2]);*/
 
-        String[] jmena = new String[30];
+        /*String[] jmena = new String[30];
         Scanner mujScanner = new Scanner(System.in);
         System.out.println("Zadej pozici ke zmene(max 29)");
         int poziceZmeny = mujScanner.nextInt();
@@ -216,7 +216,15 @@ public class Main {
         String jmeno = mujScanner.nextLine();
 
         jmena[poziceZmeny] = jmeno;
-        System.out.println(jmena[poziceZmeny]);
+        System.out.println(jmena[poziceZmeny]);*/
+
+        /*String[] jmena = new String[] {"Jan", "Petr", "Katka", "Jana"};
+        jmena[0] = "jmeno";
+        System.out.println(jmena);*/
+
+        /*int[][][] pole2D = new int[3][3][5];
+        pole2D[0][0][0] = 464;
+        pole2D[0][1][0] = -92;*/
 
     }
 }
