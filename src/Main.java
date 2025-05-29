@@ -102,11 +102,28 @@ public class Main {
 
         //Vypocet BMI hmotnost(kg)/vyska(m) na druhou, vypis do konzole vysledek
         // (<18.5) - podváha
-        // (>=18.5 && >25) - optimální váha
+        // (>=18.5 && <25) - optimální váha
         // (>=25) - nadváha
         float vyska;
         float hmotnost;
         float bmi;
+        Scanner mujScanner = new Scanner(System.in);
+
+        System.out.println("Zadej vysku(m):");
+        vyska = mujScanner.nextFloat();
+        System.out.println("Zadej vahu(kg)");
+        hmotnost = mujScanner.nextFloat();
+        bmi = hmotnost / (vyska * vyska);
+
+        if(bmi < 18.5f) {
+            System.out.println("Uzivatel ma podvahu");
+        }
+        else if(bmi>=18.5f && bmi<25){
+            System.out.println("Uzivatel ma optimalni vahu");
+        }
+        else if(bmi>=25) {
+            System.out.println("Uzivatel ma nadvahu");
+        }
 
 
     }
