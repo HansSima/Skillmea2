@@ -65,16 +65,14 @@ public class Main {
         //Prevod typu
         //int prevedeneCislo = Integer.parseInt("5");
 
-        int prvniCislo = 8;
+        /*int prvniCislo = 8;
         int druheCislo = 3;
-        //prvniCislo = prvniCislo + druheCislo;
-        //prvniCislo += druheCislo;
 
         System.out.println(prvniCislo + druheCislo);
         System.out.println(prvniCislo - druheCislo);
         System.out.println(prvniCislo % druheCislo);
 
-        System.out.println(prvniCislo <= druheCislo);
+        System.out.println(prvniCislo <= druheCislo);*/
 
     }
 }
