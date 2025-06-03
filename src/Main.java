@@ -266,7 +266,7 @@ public class Main {
         System.out.println("Tady pokracuju");*/
 
         //Vylepseni ulohy hod kostkami
-        int hozeneCislo;
+        /*int hozeneCislo;
         Random nahodnyGenerator = new Random();
         Scanner mujScanner = new Scanner(System.in);
         boolean ridiciPromenna = true;
@@ -288,10 +288,13 @@ public class Main {
             System.out.println("Pro ukonceni hry zadej pismeno q");
             ukonceni = mujScanner.nextLine();
             if(ukonceni.equals("q")){
-                ridiciPromenna = false;
+                break;
             }
 
-        } while(ridiciPromenna);
+        } while(ridiciPromenna);*/
+
+        //21 (Blackjack)
+
 
     }
 }
