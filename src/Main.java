@@ -236,7 +236,7 @@ public class Main {
             System.out.println(i);
         }*/
 
-        String[] jmena = new String[] {"Jan", "Petr", "Katka", "Jana"};
+        /*String[] jmena = new String[] {"Jan", "Petr", "Katka", "Jana"};
 
         //for
         for(int i = 0; i < jmena.length; i++){
@@ -246,9 +246,42 @@ public class Main {
         //foreach
         for(String jmeno: jmena){
             System.out.println(jmeno);
-        }
+        }*/
 
         //while
+        /*int ridiciPromenna = 0;
+        while (ridiciPromenna < 5){
+            System.out.println(ridiciPromenna);
+            ridiciPromenna++;
+        }
+        System.out.println("Tady pokracuju");*/
+
+        //do...while (provede se mi minimalne jednou bez ohledu na podminku
+        /*int ridiciPromenna2 = 0;
+        do {
+            System.out.println(ridiciPromenna2);
+            ridiciPromenna2++;
+        } while(ridiciPromenna2 < 5);
+
+        System.out.println("Tady pokracuju");*/
+
+        //Vylepseni ulohy hod kostkami
+        int hozeneCislo;
+        Random nahodnyGenerator = new Random();
+
+        System.out.println("Pro hozeni kostkou stiskni enter");
+        Scanner mujScanner = new Scanner(System.in);
+        mujScanner.nextLine();
+
+        hozeneCislo = nahodnyGenerator.nextInt(1, 7);
+        System.out.println("Hozene cislo je: " + hozeneCislo);
+
+        if(hozeneCislo % 2 == 1) {
+            System.out.println("Licha - Vyhravas!");
+        }
+        else {
+            System.out.println("Suda - Prohravas");
+        }
 
     }
 }
