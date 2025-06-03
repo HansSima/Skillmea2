@@ -268,11 +268,12 @@ public class Main {
         //Vylepseni ulohy hod kostkami
         int hozeneCislo;
         Random nahodnyGenerator = new Random();
+        Scanner mujScanner = new Scanner(System.in);
         boolean ridiciPromenna = true;
+        String ukonceni;
 
         do {
             System.out.println("Pro hozeni kostkou stiskni enter");
-            Scanner mujScanner = new Scanner(System.in);
             mujScanner.nextLine();
 
             hozeneCislo = nahodnyGenerator.nextInt(1, 7);
@@ -283,6 +284,13 @@ public class Main {
             } else {
                 System.out.println("Suda - Prohravas");
             }
+
+            System.out.println("Pro ukonceni hry zadej pismeno q");
+            ukonceni = mujScanner.nextLine();
+            if(ukonceni.equals("q")){
+                ridiciPromenna = false;
+            }
+
         } while(ridiciPromenna);
 
     }
