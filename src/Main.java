@@ -307,10 +307,23 @@ public class Main {
             skoreHrace = skoreHrace + tazenaKarta;
             System.out.println("Skore hrace je: " + skoreHrace);
 
+            if(skoreHrace > 21){
+                System.out.println("Prohral jsi!");
+                break;
+            }
+
             System.out.println("Chces dalsi kartu stiskni - d");
             System.out.println("Uz nechces kartu stiskni - q");
             uzivatelskyVstup = mujScanner.nextLine();
 
+            if(uzivatelskyVstup.equals("d")){
+                continue;
+            }
+            else if(uzivatelskyVstup.equals("q")){
+
+
+
+            }
 
 
         }while(true);
