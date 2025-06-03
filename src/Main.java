@@ -227,16 +227,28 @@ public class Main {
         pole2D[0][1][0] = -92;*/
 
         //Smycky
-        for(int i = 0; i < 10; i++){
+        /*for(int i = 0; i < 10; i++){
             //System.out.println(i * 5);
             if(i == 5){
                 //break;
                 continue;
             }
             System.out.println(i);
+        }*/
+
+        String[] jmena = new String[] {"Jan", "Petr", "Katka", "Jana"};
+
+        //for
+        for(int i = 0; i < jmena.length; i++){
+            System.out.println(jmena[i]);
         }
 
+        //foreach
+        for(String jmeno: jmena){
+            System.out.println(jmeno);
+        }
 
+        //while
 
     }
 }
