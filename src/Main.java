@@ -294,6 +294,26 @@ public class Main {
         } while(ridiciPromenna);*/
 
         //21 (Blackjack)
+        Scanner mujScanner = new Scanner(System.in);
+        Random nahGen = new Random();
+        int skoreHrace = 0;
+        int skoreKrupiera = 0;
+        int tazenaKarta;
+        String uzivatelskyVstup;
+
+        do {
+            tazenaKarta = nahGen.nextInt(1, 14);
+            System.out.println("Tazena karta je: " + tazenaKarta);
+            skoreHrace = skoreHrace + tazenaKarta;
+            System.out.println("Skore hrace je: " + skoreHrace);
+
+            System.out.println("Chces dalsi kartu stiskni - d");
+            System.out.println("Uz nechces kartu stiskni - q");
+            uzivatelskyVstup = mujScanner.nextLine();
+
+
+
+        }while(true);
 
 
     }
