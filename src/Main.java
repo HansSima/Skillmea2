@@ -320,14 +320,26 @@ public class Main {
                 continue;
             }
             else if(uzivatelskyVstup.equals("q")){
-
-
-
+                skoreKrupiera = nahGen.nextInt(1,14);
+                if(skoreKrupiera < 10){
+                    skoreKrupiera += nahGen.nextInt(1, 14);
+                }
+                break;
             }
 
 
         }while(true);
 
+        System.out.println("Skore hrace: " + skoreHrace);
+        System.out.println("Skore krupiera: " + skoreKrupiera);
+
+        if(skoreHrace > skoreKrupiera && skoreHrace <= 21){
+            System.out.println("Vyhral jste");
+        } else {
+            System.out.println("Prohral jste");
+        }
+
+        System.out.println("Dekujeme za hru");
 
     }
 }
