@@ -320,8 +320,7 @@ public class Main {
                 continue;
             }
             else if(uzivatelskyVstup.equals("q")){
-                skoreKrupiera = nahGen.nextInt(1,14);
-                if(skoreKrupiera < 10){
+                while (skoreKrupiera < skoreHrace){
                     skoreKrupiera += nahGen.nextInt(1, 14);
                 }
                 break;
@@ -333,9 +332,12 @@ public class Main {
         System.out.println("Skore hrace: " + skoreHrace);
         System.out.println("Skore krupiera: " + skoreKrupiera);
 
-        if(skoreHrace > skoreKrupiera && skoreHrace <= 21){
+        if((skoreHrace > skoreKrupiera && skoreHrace <= 21) || skoreKrupiera > 21){
             System.out.println("Vyhral jste");
-        } else {
+        }else if(skoreKrupiera == skoreHrace){
+            System.out.println("Je to remiza");
+        }
+        else {
             System.out.println("Prohral jste");
         }
 
